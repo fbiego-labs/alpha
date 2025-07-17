@@ -2,21 +2,6 @@
  * Title: Servo Control with Potentiometer and Serial Monitor
  * Description: Reads the position of a potentiometer and moves a servo motor accordingly,
  *              while also printing the potentiometer value and mapped servo angle to the Serial Monitor.
- *              
- * Hardware Setup:
- *  - Servo motor connected to D6 on AlphaBoard.
- *  - Potentiometer connected to analog input A1:
- *      - One side to GND
- *      - Other side to 5V
- *      - Middle (wiper) pin to A1
- *  - Make sure servo is powered correctly (external power may be needed).
- * 
- * Usage:
- *  - Run with AlphaBoard connected via USB.
- *  - Select board: **Arduino Micro**
- *  - Open Serial Monitor (Ctrl+Shift+M) in Arduino IDE at 9600 baud.
- * 
- * Level: Beginner - Introduces analog input, actuator control, and serial output.
  */
 
 #include "alpha.h"       // AlphaBoard pin aliases
