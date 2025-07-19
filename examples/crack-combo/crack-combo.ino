@@ -1,5 +1,5 @@
 /**
- * Project: Combo Crackdown
+ * Title: Combo Crackdown
  * Description: A combo-cracking game using two potentiometers (A1 & A2), LEDs, and buzzer. Twist potentiometers to match a secret combo and press a button to unlock.
  */
 
