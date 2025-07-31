@@ -64,11 +64,3 @@ Upon completing Stage 4, the system enters the `UNLOCKED` state:
 - **Making a Mistake:** If you perform the wrong action at any stage (e.g., press the wrong button, or the light level is incorrect), the `FAILED` sequence will trigger. The **Red LED will light up**, and a sad, descending tone will play. The system will then reset to `IDLE`.
 - **Lockdown Mode:** If you fail **three times in a row**, the system will enter `LOCKDOWN` mode for 10 seconds as a penalty. The **Red LED will flash rapidly** with an annoying beep. You cannot interact with the puzzle during this time. After 10 seconds, it will reset to `IDLE`.
 
-## Setup and Installation
-
-1.  **Hardware:** Ensure you have an ATmega32U4-based board with all the required components connected to the correct pins as defined in the sketch.
-2.  **Arduino IDE:** Open the `.ino` file in the Arduino IDE.
-3.  **Board Selection:** Select "Arduino Leonardo" or "Arduino Micro" from the `Tools > Board` menu.
-4.  **Port Selection:** Choose the correct COM port for your device under `Tools > Port`.
-5.  **Upload:** Click the "Upload" button to flash the code to your board.
-6.  **Serial Monitor:** Open the Serial Monitor at `9600` baud to see status messages and hints.
