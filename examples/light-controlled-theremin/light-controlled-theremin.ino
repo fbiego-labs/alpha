@@ -4,8 +4,6 @@
  * It uses note quantization to map sensor inputs to a musical scale (C Major Pentatonic).
  * A "Performance Mode" button allows for a 15-second continuous play with LED animations.
  *
- * 
- *
  * @hardware
  * - LDR (A0): Controls the primary note selection.
  * - Potentiometer 1 (A1): Controls tempo/arpeggio speed.
