@@ -1,13 +1,13 @@
 /**
 
-Title: Automated Servo Sweep pot
+Title: servo-sweep-pot
 
 Description: Automatically sweeps a servo motor back and forth continuously.
 */
-
+#include "alpha.h"
 #include <Servo.h>
 
-#include "alpha.h"
+
 
 Servo myServo;
 int pos = 0;
